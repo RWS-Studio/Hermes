@@ -2,6 +2,7 @@ from time import sleep
 import sys
 import os
 from random import randint
+from pyfiglet import Figlet
 
 def main():
     toolbar_width = 100
@@ -36,7 +37,9 @@ def main():
     with open("./temp/liste.txt", 'w') as logliste:
         logliste.write(listpath)
 
-    with open(listpath, 'r') as f:        
+    with open(listpath, 'r') as f:   
+        custom_fig = Figlet(font='larry3d')
+        print(custom_fig.renderText('Hermes'))       
         print(f"\n{emailsleft} emails left ~= {minutesleft[0]} hours {minutesleft[1]} minutes.")
         print("\nProgress bar :")
         sys.stdout.write("[%s]" % (" " * toolbar_width))
