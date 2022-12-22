@@ -10,3 +10,7 @@ git clone https://github.com/RWS-Studio/Hermes
 REQUIREMENTS :
 pip install -r requirements.txt
 python3 -m pip install -r requirements.txt
+
+Soon...
+-> html mail
+-> DKIM key
