@@ -6,7 +6,7 @@ It works on lists and you have to find your email list and put it in /lists/all/
 ## Install : 
   - run 'git clone https://github.com/RWS-Studio/Hermes'
 
-### Requirements :
+## Requirements :
   - run 'pip install -r requirements.txt'
   - or 'python3 -m pip install -r requirements.txt'
 
