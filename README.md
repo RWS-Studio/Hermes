@@ -11,5 +11,5 @@ It works on lists and you have to find your email list and put it in /lists/all/
   - or 'python3 -m pip install -r requirements.txt'
 
 Soon...
--> html mail
--> DKIM key
+- html mail
+- DKIM key
